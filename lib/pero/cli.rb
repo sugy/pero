@@ -45,6 +45,7 @@ module Pero
     option :noop, aliases: '-n', default: false, type: :boolean
     option :test, aliases: '-t', default: false, type: :boolean
     option :debug, aliases: '-d', default: false, type: :boolean
+    option :show_diff, default: false, type: :boolean
     option :verbose, aliases: '-v', default: true, type: :boolean
     option :tags, default: nil, type: :array
     option :volumes, default: nil, type: :array
